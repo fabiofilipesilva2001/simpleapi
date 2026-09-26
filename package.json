@@ -1,0 +1,34 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write src",
+    "format:check": "biome format src",
+    "check": "biome check src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiofilipesilva2001/simpleapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiofilipesilva2001/simpleapi/issues"
+  },
+  "homepage": "https://github.com/fabiofilipesilva2001/simpleapi#readme",
+  "dependencies": {
+    "fastify": "^5.12.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
